@@ -16,6 +16,34 @@
   font-size: 75px;
 }
 
+@media screen and (max-width: 500px) {
+  .game-board {
+    width: 16.2rem;
+    height: 16.2rem;
+    padding: .2rem;
+    margin-top: 0.75rem !important;
+  }
+
+  .game-board button {
+    width: 5rem;
+    height: 5rem;
+    margin: .2rem;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  p.alert {
+    margin-top: 0.75rem !important;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .float-end {
+    float: none !important;
+    margin: 0.5rem;
+  }
+}
+
 .game-board button:hover {
   /* for use with Bootstrap styles */
   background-color: #d8dadd;
