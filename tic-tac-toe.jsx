@@ -42,7 +42,7 @@ const Square = ({
 
 const Message = ({ status, statusType }) => {
   return (
-    <div className='container'>
+    <div className='container' style={{maxWidth: '600px'}}>
       <p className={`alert alert-${statusType} lead mt-4`}>{status}</p>
     </div>
   )
@@ -171,7 +171,7 @@ const Board = () => {
         {mounted && renderSquare(8)}
       </div>
       
-      <div className='container'>
+      <div className='container' style={{maxWidth: '600px'}}>
         <button id='clearGame' className='btn btn-outline-secondary mx-1' onClick={clearGame}>Clear Game</button>
         <button id='newGame' className='btn btn-outline-secondary mx-1' onClick={newGame}>New Game</button>
         <div className='float-end h4 text-secondary'><span className='mx-3'>Score </span>{`X: ${wins[1]}`}<span className='mx-2'> </span>{`O: ${wins[0]}`}</div>
