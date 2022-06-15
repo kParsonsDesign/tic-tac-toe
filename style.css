@@ -1,0 +1,49 @@
+.game-board {
+  box-sizing: content-box;
+  width: 450px;
+  height: 450px;
+  padding: 5px;
+  background-color: #8c9cac;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game-board button {
+  /* for use with Bootstrap styles */
+  margin: 3px;
+  font-size: 75px;
+}
+
+.game-board button:hover {
+  /* for use with Bootstrap styles */
+  background-color: #d8dadd;
+}
+
+.game-board button:disabled {
+  /* for use with Bootstrap styles */
+  background-color: #f8f9fa;
+  opacity: 1;
+  /* opacity: 0.9; */
+}
+
+/* button.game-piece {
+  box-sizing: border-box;
+  width: 140px;
+  height: 140px;
+  font-size: 75px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: var(--bs-gray-300);
+} 
+
+button.game-piece:disabled {
+  color: black;
+  background-color: var(--bs-gray-300);
+  opacity: 1;
+}*/
+
+/* button:hover {
+  background-color: var(--bs-gray-400);
+} */
