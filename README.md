@@ -21,7 +21,7 @@ This project can be viewed on a browser at [kparsonsdesign.github.io/tic-tac-toe
 - Will try to merge the functionality of the "Clear Game" and "New Game" buttons into one single reset button.
 
 ## License
-[MIT License](https://github.com/kParsonsDesign/tic-tac-toe/LICENSE)
+[MIT License](https://github.com/kParsonsDesign/tic-tac-toe/blob/master/LICENSE)
 
 Copyright (c) 2022 Katherine Parsons
 
